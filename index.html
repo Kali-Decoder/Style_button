@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" style="background-color: #d8e2dc;">
+        <div class="row mt-3">
+            <div class="col-md11 col-12 col-lg-11 col-sm-11 mx-auto">
+                <h3 class="text-center text-danger" style="font-family: 'Stick No Bills', sans-serif; font-weight: 700;">Make Your Own <span class="text-success">Button</span> Style !</h3>
+            </div>
+        </div>
+        <div class="row mt-3 mb-5">
+            <div class="col-md-4 p-5 col-10 view col-lg-4 col-sm-4 col-xs-4 mx-auto">
+                    <button class="result">Hello</button>
+            </div>
+            <div class="col-md-7 mt-md-0 mt-4 p-4 col-10 controls col-lg-7 col-sm-7 col-xs-7 mx-auto">
+                <h4 class="text-left text-danger" style="font-family: 'Stick No Bills', sans-serif; font-weight: 700;"><span class="text-success">Button</span> Settings </h4>
+
+                <label for="text" class="form-label text-info">Button Text:</label>
+                <input type="text" id="text" class="form-control">
+
+                <label for="left-top" class="form-label text-info">Left Top Radius :</label>
+                <input type="range" name="left-top" id="left-top" step="1" min="0" max="50" class="form-control-range">
+                
+                <label for="right-top" class="form-label text-info">Right Top Radius :</label>
+                <input type="range" name="right-top" id="right-top" step="1" min="0" max="50" class="form-control-range">
+
+                <label for="right-bottom" class="form-label text-info">Right Bottom Radius :</label>
+                <input type="range" name="right-bottom" id="right-bottom" step="1" min="0" max="50" class="form-control-range">
+
+                <label for="left-bottom" class="form-label text-info">Left Bottom Radius :</label>
+                <input type="range" name="left-bottom" id="left-bottom" step="1" min="0" max="50" class="form-control-range">
+
+                <label for="width" class="form-label text-info  ">Width (rem) :</label>
+                <input type="number" name="width" id="width" class="form-control">
+
+                <label for="height" class="form-label text-info  ">Height (rem) :</label>
+                <input type="number" name="height" id="height" class="form-control">
+
+                <label for="text-color" class="form-label text-info  ">Text Color  :</label>
+                <input type="color" name="text-color" id="text-color" class="form-control">
+
+                <label for="bg-color" class="form-label text-info  ">Background Color  :</label>
+                <input type="color" name="bg-color" id="bg-color" class="form-control">
+
+                <label for="b-color" class="form-label text-info  ">Border Color :</label>
+                <input type="color" name="b-color" id="b-color" class="form-control">
+
+                <select name="fontweight" class="custom-select mt-2" id="fontweight">
+                    <option value="normal">Font Weight</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="300">300</option>
+                    <option value="400">400</option>
+                    <option value="500">500</option>
+                    <option value="600">600</option>
+                    <option value="700">700</option>
+                    <option value="800">800</option>
+                    <option value="900">900</option>
+                    
+                </select>
+                <label for="paddingx" class="form-label text-info  ">PaddingX:</label>
+                <input type="number" name="paddingx" id="paddingx" class="form-control">
+
+                <label for="paddingy" class="form-label text-info">PaddingY:</label>
+                <input type="number" name="paddingy" id="paddingy"  class="form-control">
+
+                <label for="fontsize" class="form-label text-info">Font Size (rem):</label>
+                <input type="number" name="fontsize" id="fontsize"  class="form-control">
+
+
+
+            </div>
+            
+        </div>
+        <!-- <div class="col-md11 col-12 col-lg-11 col-sm-11 mx-auto">
+            <h3 class="text-center text-danger" style="font-family: 'Stick No Bills', sans-serif; font-weight: 700;">Your <span class="text-success">Button</span> CSS 👊</h3>
+        </div>
+        <div class="row mt-3 mb-5">
+            <div class="col-md-10 p-5 output col-10 view col-lg-10 col-sm-10 col-xs-10 mx-auto">
+                    <p class="text-secondary output-text"></p>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="index.js">
+       
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+        body{
+            background-color: #d8e2dc;
+        }
+        .controls
+        {
+            border: 2px solid black;
+            height: auto;
+            border-radius: 8px;
+
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+        .view,.output
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            border: 3px solid red;
+            border-radius: 4px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            
+        }
+        .result
+        {
+            outline:none;
+        }
